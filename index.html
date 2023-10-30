@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Протокол Диффи — Хеллмана</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Протокол Диффи — Хеллмана</h2>
+        <label for="p">p (простое число): </label>
+        <input type="text" id="p">
+
+        <label for="g">g (основание): </label>
+        <input type="text" id="g">
+
+        <label for="a">Секретный ключ Алисы (a): </label>
+        <input type="text" id="a">
+
+        <label for="b">Секретный ключ Боба (b): </label>
+        <input type="text" id="b">
+
+        <p id="result">Секретный ключ: </p>
+    </div>
+    <div>
+        <button onclick="calculateKey()">Сгенерировать</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
