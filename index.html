@@ -11,15 +11,19 @@
         <h2>Протокол Диффи — Хеллмана</h2>
         <label for="p">p (простое число): </label>
         <input type="text" id="p">
+        <button class="button-style" onclick="randp()">Сгенерировать p</button>
 
         <label for="g">g (основание): </label>
         <input type="text" id="g">
+        <button class="button-style" onclick="randg()">Сгенерировать g</button>
 
         <label for="a">Секретный ключ Алисы (a): </label>
         <input type="text" id="a">
+        <button class="button-style" onclick="randa()">Сгенерировать a</button>
 
         <label for="b">Секретный ключ Боба (b): </label>
         <input type="text" id="b">
+        <button class="button-style" onclick="randb()">Сгенерировать b</button>
 
         <p id="result">Секретный ключ: </p>
     </div>
